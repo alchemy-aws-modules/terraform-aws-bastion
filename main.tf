@@ -52,8 +52,8 @@ data "aws_ami" "centos" {
   }
 
   filter {
-    name   = "product-code"
-    values = ["aw0evgkw8e5c1q413zgy5pjce"]
+    name   = "image-id"
+    values = ["ami-02eac2c0129f6376b"]
   }
 
   owners = ["aws-marketplace"]
